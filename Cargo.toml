@@ -1,0 +1,6 @@
+[package]
+name = "mini"
+version = "0.1.0"
+authors = ["DevOrc <ncharlton002@gmail.com>"]
+
+[dependencies]
