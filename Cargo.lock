@@ -2,6 +2,7 @@
 name = "mini"
 version = "0.1.0"
 dependencies = [
+ "cannon 0.1.0",
  "irc 0.12.3 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -64,6 +65,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "byteorder 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "iovec 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "cannon"
+version = "0.1.0"
+dependencies = [
+ "kernel32-sys 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "winapi 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

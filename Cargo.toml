@@ -5,3 +5,4 @@ authors = ["DevOrc <ncharlton002@gmail.com>"]
 
 [dependencies]
 irc = "0.12.3"
+cannon = {path = "cannon"}
